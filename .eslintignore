@@ -1,0 +1,4 @@
+**.d.ts
+/packages/lol-ui
+dist
+node_modules
