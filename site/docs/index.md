@@ -1,30 +1,25 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-title: LOL-UI
-titleTemplate: 一个快速搭建Vue3组件库的框架
-
 hero:
-name: LOL-UI
-text: 一个快速搭建Vue3组件库的框架
-tagline: 让你的组件库开发更简单
-image:
-/src: /logo.png
-alt: LOL-UI
-actions:
-- theme: brand
-text: 开始
-link: /guild/introduce
-- theme: alt
-text: 在 Gitee 上查看
-link: https://gitee.com/leader-10086/lol-ui
+  name: "LOL-UI"
+  text: "LOL-UI"
+  tagline: My great project tagline
+  actions:
+    - theme: brand
+      text: Markdown Examples
+      link: /markdown-examples
+    - theme: alt
+      text: API Examples
+      link: /api-examples
 
 features:
-- icon: 💡
-  title: Vue3组件库
-  details: 基于vite+TypeScript开发
-- icon: 📦
-  title: 让你的组件库开发更简单
-  details: 提供一个Vue3组件库开发环境
-- icon: 🛠️
-  title: 按需引入
-  details: 直接支持按需引入无需配置任何插件。
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
+
