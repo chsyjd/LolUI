@@ -1,0 +1,31 @@
+{
+  "name": "@lanxr/lol-ui",
+  "version": "1.0.4",
+  "main": "lib/components/index.js",
+  "module": "es/components/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "lol-ui",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "lol-ui",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/leader-10086/lol-ui"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

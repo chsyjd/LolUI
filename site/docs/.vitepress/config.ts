@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "LOL-UI",
   description: "LOL-UI",
-  base: process.env.NODE_ENV === 'production' ? '/lolui/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/LolUI/' : '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
